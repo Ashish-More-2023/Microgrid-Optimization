@@ -60,5 +60,13 @@ building data for engineering conclusions.
 5. M. A. Ortega-Vazquez, "Optimal scheduling of electric vehicle charging and vehicle-to-grid services at household level including battery degradation and price uncertainty," *IET Gen. Transm. Distrib.*, 8(6), 1007–1016, 2014.
 6. Ministry of Power, Govt. of India, Electricity (Rights of Consumers) Amendment Rules, 2023 (Time-of-Day tariff).
 
-## License
-MIT
+## Authors
+Ashish More 
+230151014
+B.Tech Energy Engineering
+
+Faculty Guide
+Kuldeep Kumar, Ph.D.
+Assistant Professor
+School of Energy Science and Engineering 
+Indian Institute of Technology Guwahati
