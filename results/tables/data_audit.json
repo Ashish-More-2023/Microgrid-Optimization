@@ -1,0 +1,28 @@
+{
+  "rows": 5664,
+  "start": "2023-01-01 00:00:00",
+  "end": "2023-02-28 23:45:00",
+  "missing_values": 0,
+  "irregular_timesteps": 0,
+  "mean_solar_kw_night": 248.57003228975543,
+  "mean_solar_kw_day_11_14": 250.71769572753058,
+  "corr_solar_vs_irradiance": -0.011340270636386613,
+  "corr_wind_vs_windspeed": 0.0037144498036822283,
+  "load_autocorr_lag1": -0.017937523356056004,
+  "load_autocorr_lag96": -0.0012375902175561164,
+  "hourly_load_profile_range_kw": 37.02182601021639,
+  "energy_balance_residual_mean_kw": -48.397331628304826,
+  "energy_balance_residual_std_kw": 320.720458362844,
+  "mean_abs_soc_jump_pct_per_15min": 29.806904093328637,
+  "max_possible_soc_change_pct_per_15min": 6.25,
+  "optimal_energy_dispatch_equals_gen_minus_load": true,
+  "findings": [
+    "Solar output shows no day/night cycle (night mean ~ noon mean).",
+    "Solar power is uncorrelated with irradiance.",
+    "Wind power is uncorrelated with wind speed.",
+    "Load has no autocorrelation: consecutive 15-min values are independent.",
+    "Recorded generation/battery/grid flows do not satisfy the power balance.",
+    "Recorded battery SOC jumps far faster than any physical battery could move.",
+    "Column 'optimal_energy_dispatch' is simply generation minus load (not an optimized schedule)."
+  ]
+}
